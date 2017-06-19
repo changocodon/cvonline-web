@@ -1,6 +1,6 @@
 import { Angular4ClientPage } from './app.po';
 
-describe('angular4-client App', () => {
+describe('cvonline App', () => {
   let page: Angular4ClientPage;
 
   beforeEach(() => {

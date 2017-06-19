@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+ title = 'Project CV online, which is applyed Angular4 + Spring Boot + JPA';
 }
