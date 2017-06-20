@@ -1,8 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { CustomerDetailsComponent } from './customer-details/customer-details.component';
-import { AppComponent } from './app.component';
 import { HttpModule } from '@angular/http';
+import { FormsModule } from '@angular/forms';
+
+import { AppComponent } from './app.component';
+import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 
 @NgModule({
   declarations: [
@@ -11,6 +13,7 @@ import { HttpModule } from '@angular/http';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpModule,
   ],
   providers: [],
